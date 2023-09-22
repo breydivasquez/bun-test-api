@@ -1,5 +1,5 @@
 import routePath from "./routes/index.route";
-
+//server init
 const server = Bun.serve({
   port: process.env.PORT||3002,
   fetch(req) {    
